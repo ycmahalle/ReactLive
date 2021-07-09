@@ -1,0 +1,44 @@
+*{
+    transition: all 1s ease-in-out;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.nav_bg{
+    z-index: 11;
+}
+.tab-active{
+    color: slateblue;
+    border-bottom: 1px solid slateblue;
+} 
+*{
+    transition:all 0.3 ease-in-out;
+}
+.navu{
+    z-index: 1 !important;
+}
+.animated{
+    margin-top: 5%;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    /* transform: translateY(0px); */
+  
+}
+
+.brand-name{
+    color:#3ab6b6;
+}
+@keyframes up-down {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+input{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
