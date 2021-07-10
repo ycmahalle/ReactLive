@@ -10,7 +10,7 @@ const Home=()=>{
           desc="We are here to Take your shop online"
           imgs = "../img/home-vector.png"
          />
-
+        <br /><br /><br /><br />
         
 
       </>
